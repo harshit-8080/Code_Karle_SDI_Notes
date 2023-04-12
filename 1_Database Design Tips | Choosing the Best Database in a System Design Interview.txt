@@ -1,0 +1,19 @@
+1.  Choosing coorrect database will effect our non functional requirements.
+
+2.  For Caching releated things, We can use Redis.
+
+3.  For image, video or files upload, We should use some blob storage like S3.
+
+4.  With S3, We should try to use CDN like AWS Cloudfront for better performance.
+
+5.  For text searching capabilities, We should use elastic search or solr.
+
+6.  Fuzzy search should be enabled, ( Airport ==> Airprot )  EDIT DISTANCE -> 2.
+
+7.  Elastice Search and Solr are not a database, They are search engines.
+
+8.  We should not keep our data as primary source of truth in elastic search and solr.
+
+
+
+
