@@ -14,6 +14,7 @@
 
 8.  We should not keep our data as primary source of truth in elastic search and solr.
 
+9.  If we want to build some metrics kind of application, like grafana or prometheus. We should use time series databases.
 
-
+10. Time series databases --> influxdb, openTSDB etc.
 
