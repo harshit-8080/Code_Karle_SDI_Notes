@@ -24,7 +24,7 @@
 ================================================================================================================================================================================================================================================================
 
 
-Secenario Where We will use Relational or Non Relational databases.
+Secenario Where We will use Relational databases.
 
 
 1. Structured Data  ====>
@@ -37,3 +37,37 @@ Secenario Where We will use Relational or Non Relational databases.
 
 
 
+================================================================================================================================================================================================================================================================
+
+
+Secenario Where We will use Non Relational databases.
+
+1.  If the use case is --> You have lots of data attributes and different types of complex queries can be asked.
+
+2.  if Point 1, Then We should use something called document DB like ( mongodb, couch base ).
+
+3.  Elastice search or solr databases are also exmaples of document DB.
+
+4.  If we want to perform some analytic operations on some columns.
+
+OR
+
+5.  If we have ever increasing data, We can use ( cassandra or HBase ).
+
+6.  Cassandra is not very heave to deploy
+
+7. Difference between Columnar and Relational Databases.
+
+   1. While a relational database is optimized for storing rows of data, typically for transactional applications.
+   
+   2. A columnar database is optimized for fast retrieval of columns of data, typically in analytical applications.
+
+   3. Column-oriented databases (aka columnar databases) are more suitable for analytical workloads because the data format (column format) lends itself to faster query processing — scans, aggregation, etc.
+
+
+8. For eg., different events occur in the interaction of users with the food ordering apps
+   1. They search for a dish (search event)
+   2. They select a restaurant and view menu (view event)
+   3. They may add a dish to the cart (add_to_cart event)
+   4. They may place an order (order event)
+   5. They may abandon cart (abondon_cart event)
