@@ -18,3 +18,6 @@
 
 10. Time series databases --> influxdb, openTSDB etc.
 
+11. If there is usecase of dumping very large data in database and perform some analytic thing and generate a report baseed on that. hadoop will be the best choice.
+
+
