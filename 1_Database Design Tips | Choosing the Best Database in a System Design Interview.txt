@@ -21,3 +21,19 @@
 11. If there is usecase of dumping very large data in database and perform some analytic thing and generate a report baseed on that. hadoop will be the best choice.
 
 
+================================================================================================================================================================================================================================================================
+
+
+Secenario Where We will use Relational or Non Relational databases.
+
+
+1. Structured Data  ====>
+
+   If data is structure and or can be formed in structure easily, Relational databases make more sense.
+
+2. If We decided that our data is structured, Now we can think if We need ACID property or not. (Transactions)
+
+3.  If We need Transactions, Then we can use Relational database like MySQL, Postgres, Oracle.
+
+
+
